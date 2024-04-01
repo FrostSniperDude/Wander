@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	
+	<body>
+	<!--
+	layer 0: floor
+	layer 1: walls
+	layer 2: liquids
+	layer 3: furniture 
+	layer 4: items
+	layer 5: creatures
+	layer 6: tile effects
+	-->
+<div class="container">
+	<img id="0,0,0">
+	<img id="1,0,0">
+	<img id="2,0,0">
+	<img id="3,0,0">
+	<img id="4,0,0">
+</div>
+<div class="container">
+	<img id="0,1,0">
+	<img id="1,1,0">
+	<img id="2,1,0">
+	<img id="3,1,0">
+	<img id="4,1,0">
+</div>
+<div class="container">
+	<img id="0,2,0">
+	<img id="1,2,0">
+	<img id="2,2,0">
+	<img id="3,2,0">
+	<img id="4,2,0">
+</div>
+<div class="container">
+	<img id="0,3,0">
+	<img id="1,3,0">
+	<img id="2,3,0">
+	<img id="3,3,0">
+	<img id="4,3,0">
+</div>
+<div class="container">
+	<img id="0,4,0">
+	<img id="1,4,0">
+	<img id="2,4,0">
+	<img id="3,4,0">
+	<img id="4,4,0">
+</div>
+<div class="container">
+	<img id="0,0,1">
+	<img id="1,0,1">
+	<img id="2,0,1">
+	<img id="3,0,1">
+	<img id="4,0,1">
+</div>
+<div class="container">
+	<img id="0,1,1">
+	<img id="1,1,1">
+	<img id="2,1,1">
+	<img id="3,1,1">
+	<img id="4,1,1">
+</div>
+<div class="container">
+	<img id="0,2,1">
+	<img id="1,2,1">
+	<img id="2,2,1">
+	<img id="3,2,1">
+	<img id="4,2,1">
+</div>
+<div class="container">
+	<img id="0,3,1">
+	<img id="1,3,1">
+	<img id="2,3,1">
+	<img id="3,3,1">
+	<img id="4,3,1">
+</div>
+<div class="container">
+	<img id="0,4,1">
+	<img id="1,4,1">
+	<img id="2,4,1">
+	<img id="3,4,1">
+	<img id="4,4,1">
+</div>
+<div class="container">
+	<img id="0,0,2">
+	<img id="1,0,2">
+	<img id="2,0,2">
+	<img id="3,0,2">
+	<img id="4,0,2">
+</div>
+<div class="container">
+	<img id="0,1,2">
+	<img id="1,1,2">
+	<img id="2,1,2">
+	<img id="3,1,2">
+	<img id="4,1,2">
+</div>
+<div class="container">
+	<img id="0,2,2">
+	<img id="1,2,2">
+	<img id="2,2,2">
+	<img id="3,2,2">
+	<img id="4,2,2">
+</div>
+<div class="container">
+	<img id="0,3,2">
+	<img id="1,3,2">
+	<img id="2,3,2">
+	<img id="3,3,2">
+	<img id="4,3,2">
+</div>
+<div class="container">
+	<img id="0,4,2">
+	<img id="1,4,2">
+	<img id="2,4,2">
+	<img id="3,4,2">
+	<img id="4,4,2">
+</div>
+<div class="container">
+	<img id="0,0,3">
+	<img id="1,0,3">
+	<img id="2,0,3">
+	<img id="3,0,3">
+	<img id="4,0,3">
+</div>
+<div class="container">
+	<img id="0,1,3">
+	<img id="1,1,3">
+	<img id="2,1,3">
+	<img id="3,1,3">
+	<img id="4,1,3">
+</div>
+<div class="container">
+	<img id="0,2,3">
+	<img id="1,2,3">
+	<img id="2,2,3">
+	<img id="3,2,3">
+	<img id="4,2,3">
+</div>
+<div class="container">
+	<img id="0,3,3">
+	<img id="1,3,3">
+	<img id="2,3,3">
+	<img id="3,3,3">
+	<img id="4,3,3">
+</div>
+<div class="container">
+	<img id="0,4,3">
+	<img id="1,4,3">
+	<img id="2,4,3">
+	<img id="3,4,3">
+	<img id="4,4,3">
+</div>
+<div class="container">
+	<img id="0,0,4">
+	<img id="1,0,4">
+	<img id="2,0,4">
+	<img id="3,0,4">
+	<img id="4,0,4">
+</div>
+<div class="container">
+	<img id="0,1,4">
+	<img id="1,1,4">
+	<img id="2,1,4">
+	<img id="3,1,4">
+	<img id="4,1,4">
+</div>
+<div class="container">
+	<img id="0,2,4">
+	<img id="1,2,4">
+	<img id="2,2,4">
+	<img id="3,2,4">
+	<img id="4,2,4">
+</div>
+<div class="container">
+	<img id="0,3,4">
+	<img id="1,3,4">
+	<img id="2,3,4">
+	<img id="3,3,4">
+	<img id="4,3,4">
+</div>
+<div class="container">
+	<img id="0,4,4">
+	<img id="1,4,4">
+	<img id="2,4,4">
+	<img id="3,4,4">
+	<img id="4,4,4">
+</div>
+<div class="container">
+	<img id="0,0,5">
+	<img id="1,0,5">
+	<img id="2,0,5">
+	<img id="3,0,5">
+	<img id="4,0,5">
+</div>
+<div class="container">
+	<img id="0,1,5">
+	<img id="1,1,5">
+	<img id="2,1,5">
+	<img id="3,1,5">
+	<img id="4,1,5">
+</div>
+<div class="container">
+	<img id="0,2,5">
+	<img id="1,2,5">
+	<img id="2,2,5">
+	<img id="3,2,5">
+	<img id="4,2,5">
+</div>
+<div class="container">
+	<img id="0,3,5">
+	<img id="1,3,5">
+	<img id="2,3,5">
+	<img id="3,3,5">
+	<img id="4,3,5">
+</div>
+<div class="container">
+	<img id="0,4,5">
+	<img id="1,4,5">
+	<img id="2,4,5">
+	<img id="3,4,5">
+	<img id="4,4,5">
+</div>
+<div class="container">
+	<img id="0,0,6">
+	<img id="1,0,6">
+	<img id="2,0,6">
+	<img id="3,0,6">
+	<img id="4,0,6">
+</div>
+<div class="container">
+	<img id="0,1,6">
+	<img id="1,1,6">
+	<img id="2,1,6">
+	<img id="3,1,6">
+	<img id="4,1,6">
+</div>
+<div class="container">
+	<img id="0,2,6">
+	<img id="1,2,6">
+	<img id="2,2,6">
+	<img id="3,2,6">
+	<img id="4,2,6">
+</div>
+<div class="container">
+	<img id="0,3,6">
+	<img id="1,3,6">
+	<img id="2,3,6">
+	<img id="3,3,6">
+	<img id="4,3,6">
+</div>
+<div class="container">
+	<img id="0,4,6">
+	<img id="1,4,6">
+	<img id="2,4,6">
+	<img id="3,4,6">
+	<img id="4,4,6">
+</div>
+<div class="uiMenu">
+	<button id="up">/\</button>
+	<button id="left"></button>
+	<button id="right"></button>
+	<button id="down">\/</button>
+</div>
+	
+<style>
+	.container {
+		position: absolute;
+		display: flex;
+	}
+</style>
+<script>
+var sandImage =  "https://res.cloudinary.com/dgzqbv6if/image/upload/f_auto,q_auto/s9vjykduhagv5dlo0olc";
+var humanImage = "https://res.cloudinary.com/dgzqbv6if/image/upload/f_auto,q_auto/fq2mj5tqxq5uxv5t1nt3";
+var dirtImage = "https://res.cloudinary.com/dgzqbv6if/image/upload/f_auto,q_auto/ifhljbcnvrqnyvc5syyx";
+var catImage = "https://res.cloudinary.com/dgzqbv6if/image/upload/f_auto,q_auto/a8cjqy5zvvljow03lhbx";
+var darkImage = "https://res.cloudinary.com/dgzqbv6if/image/upload/f_auto,q_auto/utfisodeqiiepguenloz";
+var blankImage = "https://www.dropbox.com/scl/fi/6u0v2yrcjsqc6cjosb63n/Blank.png?rlkey=4takvja8zyu9ia7004kyq7ndy&dl=1";
+
+var W = screen.width;
+var H = screen.height;
+var Goal = "";
+
+var gridWidth = 5;
+var gridHeight = 5;
+var gridDepth = 7;
+
+var PlayerTile = Math.round(gridWidth/2-0.1)+","+Math.round(gridHeight/2-0.1)+",4";
+document.getElementById(PlayerTile).src = humanImage;
+var playerX = 0;
+var playerY = 0;
+
+var floorLayer = {};
+var wallLayer = {};
+
+var effectsLayer = {};
+
+var shadowSpots = [];
+
+const uiIds = ["up", "left", "right", "down"];
+
+if (W>H) {
+	Goal = H-200;// adjusted to fit ui
+}
+else {
+	Goal = W;
+}
+
+var divs = document.getElementsByClassName("container")
+var row = 0
+
+for (let i =0;i<divs.length;i++) {
+	divs[i].style.position = "absolute";
+	divs[i].style.top = ((Goal/gridWidth-1)*(row))+"px";
+	divs[i].style.left = 0;
+	if (row==gridHeight-1) {
+		row = 0;
+	}
+	else {
+		row++;
+	}
+}
+
+for (let x=0;x < gridWidth;x++) {
+	for (let y=0;y < gridHeight;y++) {
+		for (let z=0;z < gridDepth;z++) {
+			let tile = document.getElementById(x+","+y+","+z);
+			//tile.src = sandImage;
+			tile.width = Goal/gridWidth;
+			tile.height = Goal/gridWidth
+		}
+	}
+}
+
+document.getElementsByClassName("uiMenu")[0].style.position = "absolute";
+document.getElementsByClassName("uiMenu")[0].style.top = (Goal/gridWidth)*(gridHeight)+"px";
+console.log(document.getElementsByClassName("uiMenu")[0].class);
+console.log((Goal/gridWidth)*(gridHeight));
+
+// Classes
+
+class floor {
+	constructor(name, src, priority, maxSpeed) {
+		this.name = name;
+		this.src = src;
+		this.maxSpeed = maxSpeed;
+		this.priority = priority;
+	}
+	
+	getImg() {
+		return this.src;
+	}
+	
+	getName() {
+		return this.name;
+	}
+	
+	getPriority() {
+		return this.priority;
+	}
+}
+
+class wall {
+	constructor(name, src, priority, transparent) {
+		this.name = name;
+		this.src = src;
+		this.priority = priority;
+		this.transparent = transparent;
+	}
+	
+	getImg() {
+		return this.src;
+	}
+	
+	getName() {
+		return this.name;
+	}
+	
+	getPriority() {
+		return this.priority;
+	}
+}
+
+// functions
+
+function convertCords(cord) {
+	let cordX = Number(cord.substring(0,cord.indexOf(",")));
+	let cordY = Number(cord.substr(cord.indexOf(",")+1,cord.length));
+	return [cordX, cordY];
+}
+
+// might remove this really no point
+function isGenerated(cord) {
+	if (floorLayer[cord]) {
+		return Boolean(true);
+	}
+	else {
+		return Boolean(false);
+	}
+}
+
+function getHighestPriority(table) {
+	if (table.length>0) {
+		let highestNum = 0;
+		let highestPriority = 0;
+	
+		for (let i=0;i<table.length;i++) {
+			if (table[i].getPriority>highestPriority) {
+				highestPriority = table[i].getPriority();
+				highestNum = i;
+			}
+		}
+		return highestNum;
+	}
+	else if (table.length == 1) {
+		return 1;
+	}
+	else {
+		return Boolean(false);
+	}
+}
+
+function generateGround() {
+	let num = Math.floor(Math.random()*(9));
+	
+	if (num>7) {
+		return new floor("Dirt",dirtImage,0,80);
+	}
+	else {
+		return new floor("Sand",sandImage,0,70);
+	}
+}
+
+function generateWall(cord) {
+	let newWall = new wall("ex",catImage,0,Boolean(false));
+	if (wallLayer[cord]) {
+		wallLayer[cord].push(newWall);
+	}
+	else {
+		wallLayer[cord] = [newWall];
+	}
+}
+
+function getTopFloor(cord) {
+	let highestNum = 0;
+	if (floorLayer[cord])  {
+		highestNum = getHighestPriority(floorLayer[cord]);
+	}
+	else {
+		floorLayer[cord] = [generateGround()];
+	}
+	return floorLayer[cord][highestNum];
+}
+
+function getTopWall(cord) {
+	if (wallLayer[cord]) {
+		let highestNum = 0;
+		if (wallLayer[cord].length>1) {
+			highestNum = getHighestPriority(wallLayer[cord]);
+		}
+		return wallLayer[cord][highestNum];
+	}
+	else return Boolean(false);
+}
+
+function generateStructure() {
+	if (Math.floor(Math.random()*10)==9) {
+		let x = Math.floor(Math.random()*gridWidth*3);
+		let y=playerY;
+		if (Math.floor(Math.random()*2)==1) {
+			x *= -1;
+		}
+		
+		if (x>gridWidth || x<-gridWidth) {
+			y = Math.floor(Math.random()*gridWidth*3);
+			if (Math.floor(Math.random()*2)==1) {
+				y *= -1;
+			}
+		}
+		else {
+			y = Math.floor(Math.random()*gridHeight*3);
+		}
+		x += playerX;
+		y += playerY;
+		console.log(playerX+","+playerY);
+		console.log(x+","+y);
+		
+		if (!isGenerated(x+","+y)) {
+			generateWall(x+","+y);
+			console.log(wallLayer[x+","+y][0]);
+			
+		}
+	}
+	
+}
+
+function startShadow(cord) {
+	let startX = convertCords(cord)[0];
+	let startY = convertCords(cord)[1];
+	startX -= playerX;
+	startY -= playerY;
+	
+	if (startX!=0) {
+		switch(startX>0) {
+			case true:
+				startX = 1;
+				break;
+			case false: {
+				startX = -1;
+				break;
+			}
+		}
+	}
+	
+}
+
+function displayTile(cord) {
+	let cordNums = convertCords(cord);
+	let cordX = cordNums[0];
+	let cordY = cordNums[1];
+	let difX = (cordX-playerX)+(Math.round(gridWidth/2-0.1));
+	let difY = (cordY-playerY)+(Math.round(gridHeight/2-0.1));
+	let XY = difX+","+difY;
+
+	let floorsrc = getTopFloor(cord).src;
+	let floorTile = document.getElementById(XY+",0");
+	let wallsrc = getTopWall(cord).src
+	let wallTile = document.getElementById(XY+",1");
+	
+	let effectTile = document.getElementById(XY+",6");
+	
+	floorTile.src = floorsrc;
+
+	if (wallsrc) {
+		wallTile.src = wallsrc;
+	}
+	else {
+		wallTile.src = blankImage;
+	}
+	
+	effectTile.src = blankImage;
+	
+	//if ()
+}
+
+function updateScreen() {
+	let halfWidth = Math.round(gridWidth/2-0.1);
+	let halfHeight = Math.round(gridHeight/2-0.1);
+
+	for (let x=-halfWidth;x<=halfWidth;x++) {
+		for (let y=-halfHeight;y<=halfHeight;y++) {
+			displayTile(x+playerX+","+(y+playerY));
+		}
+	}
+}
+
+function checkMove(x,y) {
+	if (playerX!=x) {
+		if (!getTopWall(x+","+y)) {
+			playerX = x;
+		}
+	}
+	if (playerY!=y) {
+		if (!getTopWall(x+","+y)) {
+			playerY = y;
+		}
+	}
+}
+
+// Inputs
+
+function input(input) {
+	switch(input) {
+		case "up":
+			checkMove(playerX,playerY-1);
+			break;
+		case "down":
+			checkMove(playerX,playerY+1);
+			break;
+		case "left":
+			checkMove(playerX-1,playerY)
+			break;
+		case "right":
+			checkMove(playerX+1,playerY);
+			break;
+	}
+	
+	generateStructure();
+	updateScreen();
+}
+
+// size does not work \/
+for (let i = 0;i<uiIds.length;i++) {
+	let btn = document.getElementById(uiIds[i]);
+	btn.width = Goal/uiIds.length;
+	btn.style.fontSize = "x-large";
+	
+	if (btn.id=="left") {
+		btn.innerHTML = "<";
+	}
+	else if (btn.id=="right") {
+		btn.innerHTML = ">";
+	}
+	
+	btn.addEventListener("mousedown", function() {
+		input(btn.id);
+	})
+}
+
+updateScreen();
+
+</script>
+	</body>
+</html>
